@@ -1,0 +1,37 @@
+{
+  "name": "careershowcase-firebase",
+  "version": "1.0.0",
+  "description": "Career Showcase Firebase project.",
+  "main": "index.js",
+  "scripts": {
+    "login:ci": "firebase login:ci",
+    "revoke-token": "firebase logout --token \"$FIREBASE_TOKEN\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scriptsComments": {
+    "login:ci": "Generate an authentication token for use in non-interactive environments."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlAskalany/careershowcase-firebase.git"
+  },
+  "keywords": [
+    "career",
+    "showcase",
+    "firebase",
+    "database",
+    "firestore",
+    "functions",
+    "hosting",
+    "storage"
+  ],
+  "author": "Ahmed AlAskalany <ahmed.alaskalany@gmail.com> (https://www.alaskalany.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlAskalany/careershowcase-firebase/issues"
+  },
+  "homepage": "https://github.com/AlAskalany/careershowcase-firebase#readme",
+  "devDependencies": {
+    "firebase-tools": "^6.0.1"
+  }
+}
